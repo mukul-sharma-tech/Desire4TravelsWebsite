@@ -1,0 +1,33 @@
+.StatewiseDestination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: -25px;
+}
+
+.StatewiseDestination h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    background-color: #f5f5f5;
+}

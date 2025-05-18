@@ -1,0 +1,24 @@
+/* Main wrapper */
+.package-container {
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Heading */
+.package-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #222;
+  margin-top: 0;
+}
+
+.package-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+}

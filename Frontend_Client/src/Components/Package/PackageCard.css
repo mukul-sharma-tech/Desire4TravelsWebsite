@@ -1,0 +1,127 @@
+.package-card {
+  width: 280px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.package-image {
+  width: 100%;
+  height: 180px;
+  object-fit: fill;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.package-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.location,
+.duration,
+.description,
+.price,
+.rating {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.star-icon {
+  color: #f5c518;
+  margin-right: 4px;
+}
+
+.callback-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.callback-btn:hover {
+  background: #e65c00;
+}
+
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 280px;
+  margin: 25px auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form input[type="tel"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+form input[type="tel"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.signup-link {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #e65c00;
+}

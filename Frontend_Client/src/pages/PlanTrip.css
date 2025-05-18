@@ -1,0 +1,76 @@
+.trip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.trip-box {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.trip-box h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.trip-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-box input,
+.trip-box select {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.trip-box input::placeholder {
+  color: #333;
+}
+
+.trip-box select:invalid {
+  color: #555;
+}
+
+.trip-box button {
+  background-color: #f44336;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.trip-box button:hover {
+  background-color: #d32f2f;
+}
+
+.custom-datepicker {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
